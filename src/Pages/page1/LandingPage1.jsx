@@ -1,5 +1,6 @@
 import React from "react";
-import "./Landingpage1.css";
+
+import "./LandingPage1.css";
 
 const LandingPage1 = () => {
   const imgs = [
@@ -19,7 +20,7 @@ const LandingPage1 = () => {
           <h1>Discover the beauty around the world</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in
-            libero risus semper habitant arcu eget. Et integer facilisi eget
+            libero risus semper habitant arcu eget. Et integer facilisi egets
             diam.
           </p>
           <button>Explore</button>
