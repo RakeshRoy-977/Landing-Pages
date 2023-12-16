@@ -1,0 +1,16 @@
+.cardView {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  /* background-color: aqua; */
+  width: 80vw;
+}
+
+.cardView img {
+  height: 12rem;
+
+  border-radius: 20px;
+  cursor: pointer;
+}

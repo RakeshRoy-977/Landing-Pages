@@ -1,0 +1,85 @@
+.LandingPage3Box {
+  background: #080c15;
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+}
+
+.LandingPage3Right {
+  position: absolute;
+  right: 5px;
+
+  background-image: url("https://s3-alpha-sig.figma.com/img/a3c4/0326/353a5e71f471ba456d0c84284ead2aa2?Expires=1703462400&Signature=QP3aoHP~Efa7OhDCcOFMxGhjRaABtMy-boDiNdbRhOIGDjz6~20BeKnabaOF7pvsf-1opnQ1aU0VS1y7sLTsKy~TL~HqdZgtDTfca5fKH5Vn~EImXeDeSxEdxPf32-APjq-e-I7cCX7XogqWMgpbt4OUVrfX58kjMic8sizVIrN1Z0WvznUEmKx4eWS4CijkIfCvUoGvPVxpfi4e20rLTyEO-05KVdVzfNCT6IZIuHFKO5D38gY6YQ5R-hNbZITDI7wmZa0C~wAAlwpKQ1pXfx7ttfSxp0ETGjg1v4XDls7owbd9SnK93hx71g4myb4u7N7Bkuhm0a3tMmCe104tcw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+
+  background-position: 480px;
+  background-blend-mode: multiply;
+  background-size: 85%;
+  width: 100%;
+  height: 100%;
+}
+
+.LandingPage3Left {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  width: 539px;
+  height: 582px;
+  margin-left: 250px;
+  margin-top: 181px;
+  /* border: 2px solid yellow; */
+}
+.LandingPage3Left h2 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+}
+.LandingPage3Left h2 span {
+  color: #cd292a;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.LandingPage3Left p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 141.667% */
+}
+.LandingPage3Left button {
+  padding: 24px 40px;
+  border-radius: 40px;
+  background: #cd292a;
+
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.LP3pics {
+  display: flex;
+  cursor: pointer;
+}
+.LP3pics img {
+  border-radius: 104px;
+  width: 104px;
+  height: 104px;
+  transition: all 0.2s;
+}
+.LP3pics img:hover {
+  transform: scale(1.2);
+}

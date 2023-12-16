@@ -1,0 +1,86 @@
+.LandingPage2Box {
+  background-image: url("https://s3-alpha-sig.figma.com/img/18c9/98f1/9f5712b97686209bd114fa7086413bd4?Expires=1703462400&Signature=k76SxzTQgjr8OXftciPUtzxRsdd-qVe7tVlTKis2lW~xOEwmWOkEAuIHrZ7zCQFymcc2FMcSxG2jJ-m1YjNyPqGzi3-70PLT-Szj0AuRIfL7~911Fy8CnmF9NprApEfip4l5HnYVvo3k3BfHGOuhqT0e8K-P6mKAWPEFBgnEEIEdGsbWpuD17ldVver-k~5069hctTCVGy~~Xy1pYzrgyl6Dw8CAi3JAZonOHxbJkRa1LJb5iKLFtGyulF4DALjGCujK9l1r3U~fN2bEN0S-tC8oCLemYNO26zDPMxb17oHd-BNYx-0NrVgKKI6jRgM42NwskaMNqJyDef7zvRCt9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+  transform: scaleX(-1);
+  /* transform: rotate(180deg); */
+  /* position: absolute; */
+  background-position: right 10px center;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  font-family: Lato;
+}
+
+.LandingPage2Texts {
+  transform: scaleX(-1);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+  right: 65px;
+  top: 242px;
+  color: white;
+  width: 684px;
+  height: 454px;
+  /* background-color: yellow; */
+}
+
+.LandingPage2Texts h1 {
+  color: #fff;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.LandingPage2Texts p {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.LandingPage2Texts button {
+  display: flex;
+  padding: 24px 48px;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: #fff;
+  cursor: pointer;
+
+  color: #100e19;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.LandingPage2InfoBox {
+  position: absolute;
+  top: 800px;
+  right: 64px;
+  display: flex;
+  transform: scaleX(-1);
+  gap: 24px;
+  /* background-color: pink; */
+}
+
+.innerCardView {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+  flex-direction: column;
+  padding: 44px;
+  width: 412px;
+  height: 232px;
+
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0.13) 68.53%
+  );
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+}
